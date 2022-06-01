@@ -1,0 +1,14 @@
+FrontPage{
+  Add User;
+  List of Users;
+}
+
+UserPage{
+  Edit{
+    -UserId;
+    -Posts to Like;
+    -Followers to Follow;
+    -Set Like/Follow Limit per 24h;
+  }
+  Delete;
+}
