@@ -1,0 +1,9 @@
+<mat-accordion multi="true" *ngIf="users.length > 0">
+  <mat-expansion-panel *ngFor="let post of users">
+    <mat-expansion-panel-header>
+      {{post.username}}
+    </mat-expansion-panel-header>
+  <p>{{post.password}}</p>
+  </mat-expansion-panel>
+</mat-accordion>
+<p *ngIf="users.length <= 0">No users here</p>
